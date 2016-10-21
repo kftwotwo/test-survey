@@ -14,11 +14,10 @@
       </div>
         <form id="survey-lang">
           <div class="form-group">
-            <label for="name">Full Name</label>
-            <input id="name" class="form-control" type="text">
-            <span id="helpBlock1" class="help-block"></span>
-            <br><label for="btn-color">Address</label>
-            <input id="btn-color" class="form-control" type="text">
+            <label for="user-name">Full Name</label>
+            <input id="userName" class="form-control" type="text">
+            <label for="user-address">Address</label><br>
+            <input id="userAddress" class="form-control" type="text">
           </div>
           <p id="radio-menu">Pick the one that you pefer!</p>
 
@@ -119,6 +118,11 @@
               <input type="radio" name="course4" value="andriod5">
               Interested in mobile devices
             </label>
+          </div>
+          <div class="par">
+            <h2>This is what I came up for you!</h2>
+            <p>This is what I recommend for you <span class="output-name"></span></p><br>
+            <p>Is this the correct address?<span class="output-address"></span></p><br>
           </div>
 
           <button type="submit">Submit</button>
