@@ -1,9 +1,28 @@
 body {
-  background-color: lightgrey;
+  background-image: url("http://orig04.deviantart.net/64e3/f/2013/183/5/8/seamless_fabric_pattern_dark_by_shandya-d6br6zb.png");
+  color: white;
+  font-size: 2em;
+
+}
+
+.jumbotron {
+  background-image: url("http://il9.picdn.net/shutterstock/videos/11080151/thumb/1.jpg");
 }
 #radio-menu {
   font-size: 22px;
 }
 .par {
   display: none;
+  float: right;
+  text-align: center;
+}
+span {
+  font-weight: bolder;
+}
+#radio-menu {
+  color: deepskyblue;
+  font-family: 'Open Sans', sans-serif;
+}
+.par {
+  color: deepskyblue;
 }

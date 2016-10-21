@@ -21,9 +21,33 @@ $(document).ready(function() {
         cssScore = cssScore + 1;
       }
 
+      if(course2 === "ruby2") {
+        rubyScore = rubyScore + 3;
+      } else {
+        cssScore = cssScore + 1;
+      }
+
+      if(course3 === "ruby3") {
+        rubyScore = rubyScore + 1;
+      } else {
+        cssScore = cssScore + 1;
+      }
+
+      if(course4 === "ruby4") {
+        rubyScore = rubyScore + 1;
+      } else {
+        cssScore = cssScore + 1;
+      }
+
+      if(course5 === "ruby5") {
+        rubyScore = rubyScore + 1;
+      } else {
+        cssScore = cssScore + 1;
+      }
+
       if (rubyScore > cssScore) {
         $(".par").fadeIn("slow");
-        $(".result").prepend("Ruby!")
+        $(".result").text("Ruby!")
       } else if (rubyScore < cssScore){
         $(".par").fadeIn("slow");
         $(".result").text("CSS/Desgin")
