@@ -1,5 +1,6 @@
 var rubyScore
 var cssScore
+var android
 
 $(document).ready(function() {
   $("#survey-lang").submit(function(event) {
@@ -15,31 +16,31 @@ $(document).ready(function() {
     rubyScore = 0;
     cssScore = 0;
 
-      if(course === "ruby") {
+      if(course == "ruby") {
         rubyScore = rubyScore + 1;
       } else {
         cssScore = cssScore + 1;
       }
 
-      if(course2 === "ruby2") {
+      if(course2 == "ruby2") {
         rubyScore = rubyScore + 3;
       } else {
         cssScore = cssScore + 1;
       }
 
-      if(course3 === "ruby3") {
+      if(course3 == "ruby3") {
         rubyScore = rubyScore + 1;
       } else {
         cssScore = cssScore + 1;
       }
 
-      if(course4 === "ruby4") {
+      if(course4 == "ruby4") {
         rubyScore = rubyScore + 1;
       } else {
         cssScore = cssScore + 1;
       }
 
-      if(course5 === "ruby5") {
+      if(course5 == "ruby5") {
         rubyScore = rubyScore + 1;
       } else {
         cssScore = cssScore + 1;
