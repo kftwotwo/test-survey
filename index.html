@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Survey</title>
   </head>
   <body>
     <h1>Fill out the survey to see what course that best matches you!</h1>
+
+      <form id="survey-lang">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input id="name" class="form-control" type="text" aria-describedby="helpBlock1">
+          <span id="helpBlock1" class="help-block"></span>
+          <br><label for="btn-color">Address</label>
+          <input id="btn-color" class="form-control" type="text" aria-describedby="helpBlock2">
+        </div>
+        <p id="radio-menu">Pick the one that you pefer!</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="course" value="ruby">
+            Backend/start from scratch
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="course" value="css">
+            Frontend/making things pretty
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="course" value="andriod">
+            Mobile apps
+          </label>
+        </div>
       </form>
   </body>
 </html>
