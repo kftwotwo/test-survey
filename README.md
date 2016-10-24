@@ -12,6 +12,13 @@ _When you open it in your browser of your choice and fill it out and it will tel
 
 * Git clone off of my account https://github.com/kftwotwo/test-survey and open it in your choice of text editor
 
+Follow the following steps to install this application
+```
+$ git clone https://github.com/kftwotwo/test-survey.git
+$ cd test-survey
+```
+
+Then while in the root directory, open `index.html` with your favorite browser.
 
 ## Support and contact details
 
